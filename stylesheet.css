@@ -1,0 +1,809 @@
+
+
+/* general styling *//* general styling *//* general styling *//* general styling */
+
+
+  html, body{
+   position: relative;
+   margin: auto;
+   top: 0px;
+   left: 0px;
+   bottom: auto;
+   right: auto;
+   box-sizing: border-box;
+   height: 100vh;
+   width: 100vw;
+
+   overflow-x: visible;
+   display: block;
+   }
+
+
+
+  h1 {
+    position: absolute;
+    display: block;
+    height: 0;
+    overflow: visible;
+    top: 50%;
+    color:white;
+  }
+
+  a {
+    color: #2f4356;
+  }
+
+   img {
+    position: absolute;
+    display: block;
+    height: 500px;
+    width: 500px;
+    vertical-align: middle;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 10%;
+
+  }
+
+
+
+
+/* main section styling/movement *//* main section styling/movement *//* main section styling/movement */
+
+
+  #pinContainer {
+     width: 100%;
+     height: 100%;
+     overflow: hidden!important;
+     background-color:#02c8a7;
+    }
+
+    .panel {
+      height: 100%;
+      width: 100%;
+      position: absolute!important;
+            }
+
+
+    .panel.intro {
+      background-color:#5e82a7;
+    }
+
+    .panel.overview {
+      background-color:#537698;
+    }
+
+    .panel.graphics {
+      background-color:#4a6987;
+    }
+
+    .panel.graphics1 {
+      background-color:#4a6987;
+    }
+
+    .panel.graphics2 {
+      background-color:#4a6987;
+    }
+
+    .panel.graphics3 {
+      background-color:#4a6987;
+    }
+
+    .panel.graphics4 {
+
+      background-color:#4a6987;
+    }
+
+    .panel.graphics5 {
+      background-color:#4a6987;
+    }
+
+    .panel.graphics6 {
+      background-color:#4a6987;
+    }
+
+    .panel.graphics7 {
+      background-color:#4a6987;
+    }
+
+    .panel.graphics8 {
+
+      background-color:#4a6987;
+    }
+
+    .panel.graphics9 {
+      background-color:#4a6987;
+    }
+
+    .panel.graphics10 {
+      background-color:#4a6987;
+    }
+
+    .panel.graphics11 {
+      background-color:#4a6987;
+    }
+
+    .panel.graphics12 {
+      background-color:#4a6987;
+    }
+
+    .panel.graphics13 {
+      background-color:#4a6987;
+    }
+
+    .panel.graphics14 {
+      background-color:#4a6987;
+    }
+
+    .panel.graphics15 {
+      background-color:#4a6987;
+    }
+
+    .panel.web {
+      background-color:#415c77;
+    }
+
+    .panel.web1 {
+      background-color:#415c77;
+    }
+
+    .panel.web2 {
+      background-color:#415c77;
+    }
+
+    .panel.web3 {
+      background-color:#415c77;
+    }
+
+    .panel.web4 {
+      background-color:#415c77;
+    }
+
+    .panel.web5 {
+      background-color:#415c77;
+    }
+
+    .panel.about {
+      background-color:#384f67;
+    }
+
+    .panel.contact {
+      background-color:#2f4356;
+    }
+
+
+
+
+/* image/icon visibility *//* image/icon visibility *//* image/icon visibility *//* image/icon visibility */
+
+    .slide {
+      border-radius: 10%;
+    }
+
+
+    .show {
+      opacity: 1 !important;
+    }
+
+/* Icons *//* Icons *//* Icons *//* Icons *//* Icons *//* Icons *//* Icons */
+
+    #i {
+      position: absolute;
+      display: block;
+      height: 100px;
+      width: 100px;
+      vertical-align: middle;
+      margin-right: 20%;
+      opacity: 0;
+      transition: 1s;
+    }
+
+
+    #m {
+      position: absolute;
+      display: block;
+      height: 100px;
+      width: 100px;
+      vertical-align: middle;
+      margin: auto;
+      opacity: 0;
+      transition: 2s;
+    }
+
+
+    #g {
+      position: absolute;
+      display: block;
+      height: 100px;
+      width: 100px;
+      vertical-align: middle;
+      margin-left: 20%;
+      opacity: 0;
+      transition: 3s;
+    }
+
+    #data {
+      position: absolute;
+      display: block;
+      height: 200px;
+      width: 200px;
+      vertical-align: middle;
+      margin-right: 10%;
+      opacity: 0;
+      transition: 3.5s;
+      border-radius:1%!important;
+    }
+
+
+    #dev {
+      position: absolute;
+      display: block;
+      height: 200px;
+      width: 200px;
+      vertical-align: middle;
+      margin: auto;
+      opacity: 0;
+      transition: 2.5s;
+    }
+
+    #design {
+      position: absolute;
+      display: block;
+      height: 200px;
+      width: 200px;
+      vertical-align: middle;
+      margin-left: 10%;
+      opacity: 0;
+      transition: 1.5s;
+    }
+
+
+     #bout {
+      float: left;
+      margin-right: 52%;
+      vertical-align: middle;
+      position: absolute;
+      overflow: hidden;
+      height: 400px;
+      width: 400px;
+      border-radius: 10%;
+      opacity: 0;
+      transition: 3s;
+    }
+
+
+    #me {
+      width: 400px;
+      height: 400px;
+      float: right!important;
+      margin-left: 55%;
+      vertical-align: middle;
+      border-radius: 10%;
+      position: absolute;
+      overflow: hidden;
+      opacity: 0;
+      transition: 3s;
+    }
+
+
+
+
+    /*design*/
+    #wrapper .text {
+    position:absolute;
+    display: block;
+    bottom:10px;
+    margin-left:17%;
+    margin-bottom: 10%;
+    visibility:hidden;
+    color: #ffffff;
+    }
+
+    #wrapper:hover .text {
+    visibility:visible;
+    }
+
+    /*dev*/
+    #rapper .text {
+    position:absolute;
+    display: block;
+    bottom:10px;
+    margin-left: 45%;
+    margin-bottom: 10%;
+    visibility:hidden;
+    color: #ffffff;
+
+
+    }
+
+    #rapper:hover .text {
+    visibility:visible;
+    }
+
+    /*data*/
+    #wapper .text {
+    position:absolute;
+    display:block;
+    bottom:10px;
+    margin-left:70%;
+    margin-bottom: 10%;
+    visibility:hidden;
+    color: #ffffff;
+
+
+    }
+
+    #wapper:hover .text {
+    visibility:visible;
+    }
+
+
+
+
+/*SVG UNIVERSAL *//*SVG UNIVERSAL *//*SVG UNIVERSAL *//*SVG UNIVERSAL */
+
+    .svg-container {
+      display: block;
+      position: absolute;
+      width: 50%;
+    	height: 50%;
+      text-align: center;
+    }
+
+    .svg-container1 {
+      display: block;
+      position: absolute;
+      width: 50%;
+    	height: 50%;
+      text-align: center;
+    }
+
+    .svg-containerG {
+      display: block;
+      position: absolute;
+      width: 60%;
+      height: 85%;
+      text-align: center;
+      margin-left: -10%;
+    }
+
+    .svg-containerW {
+      display: block;
+      position: absolute;
+      width: 40%;
+      height: 85%;
+      text-align: center;
+      margin-left: 10%;
+    }
+
+    .svg-containerA {
+      display: block;
+      position: absolute;
+      width: 20%;
+      height: 25%;
+      text-align: center;
+      margin-left: 32%;
+      margin-top: 2%;
+    }
+
+    .svg-containerC {
+      display: block;
+      position: absolute;
+      width: 25%;
+      height: 35%;
+      text-align: center;
+      margin-left: 26%;
+
+    }
+/* entrance slide text *//* entrance slide text *//* entrance slide text */
+
+    #Layer_1 {
+      display: inline-block;
+      position: absolute;
+      top:50%;
+      bottom:50%;
+    }
+
+
+    .cls-1, .entrance {
+            fill: none;
+            }
+
+          .cls-2 {
+            clip-path: url(#clip-path);
+            }
+
+          .entrance {
+            stroke: #ffffff;
+            stroke-miterlimit: 10;
+            stroke-width: 12px;
+            stroke-dasharray: 777.0440673828125px;
+            stroke-dashoffset: 777.0440673828125px;
+            }
+
+
+/* overviewtext *//* overviewtext *//* overviewtext *//* overviewtext */
+
+
+      #Layer_2 {
+        display: inline-block;
+        position: absolute;
+        bottom:50%;
+      }
+
+      .clippy, .special {
+              fill: none;
+            }
+
+       .clippya {
+        clip-path: url(#clipapath);
+      }
+
+      .special {
+        stroke: #ffffff;
+        stroke-miterlimit: 10;
+        stroke-width: 12px;
+        stroke-dasharray: 2168.23193359375px;
+        stroke-dashoffset: 2168.23193359375px;
+        }
+
+
+/* gporttext *//* gporttext *//* gporttext *//* gporttext */
+
+
+    #Layer_3 {
+      display: inline-block;
+      position: absolute;
+      top:50%;
+      bottom:50%;
+
+    }
+
+          .clippy1, .graphport {
+                  fill: none;
+                }
+
+          .clippya1 {
+            clip-path: url(#clipapath1);
+          }
+
+          .graphport {
+            stroke: #ffffff;
+            stroke-miterlimit: 10;
+            stroke-width: 14px;
+            stroke-dasharray: 3292.406005859375px;
+            stroke-dashoffset: 3292.406005859375px;
+          }
+
+
+
+
+
+/* wporttext *//* wporttext *//* wporttext *//* wporttext */
+
+
+    #Layer_4 {
+      display: inline-block;
+      position: absolute;
+      top:50%;
+      bottom:50%;
+    }
+
+
+    .clippy2, .webport {
+            fill: none;
+          }
+
+    .clippya2 {
+      clip-path: url(#clipapath2);
+    }
+
+    .webport {
+      stroke: #ffffff;
+      stroke-miterlimit: 10;
+      stroke-width: 14px;
+      stroke-dasharray: 2452.397705078125px;
+      stroke-dashoffset: 2452.397705078125px;
+    }
+
+
+
+
+/* Abouttext *//* Abouttext *//* Abouttext *//* Abouttext *//* Abouttext */
+
+    #Layer_5 {
+      display: inline-block;
+      position: absolute;
+      bottom:50%;
+    }
+
+
+    .clippy3, .abouty {
+            fill: none;
+          }
+
+    .clippya3 {
+      clip-path: url(#clipapath3);
+    }
+
+    .abouty {
+      stroke: #ffffff;
+      stroke-miterlimit: 10;
+      stroke-width: 14px;
+      stroke-dasharray: 1000.056884765625px;
+      stroke-dashoffset: 1000.056884765625px;
+    }
+
+
+
+
+/* contacttext *//* contacttext *//* contacttext *//* contacttext *//* contacttext */
+
+    #Layer_6 {
+      display: inline-block;
+      position: absolute;
+      bottom:50%;
+    }
+
+    .clippy4, .contacty {
+            fill: none;
+          }
+
+    .clippya4 {
+      clip-path: url(#clipapath4);
+    }
+
+    .contacty {
+      stroke: #ffffff;
+      stroke-miterlimit: 10;
+      stroke-width: 14px;
+      stroke-dasharray: 1298.6759033203125px;
+      stroke-dashoffset: 1298.6759033203125px;
+    }
+
+
+
+
+
+
+
+
+/* MOBILE stylesheet *//* MOBILE stylesheet *//* MOBILE stylesheet *//* MOBILE stylesheet */
+
+
+
+
+
+
+@media only screen and (max-width: 760px) {
+  html, body{
+     position: relative;
+     margin: auto;
+     top: 0px;
+     left: 0px;
+     bottom: auto;
+     right: auto;
+     box-sizing: border-box;
+     height: 100vh;
+     width: 100vw;
+     text-align: center;
+     overflow-x: visible;
+     }
+
+
+  img {
+   position: absolute;
+   display: block;
+   height: 300px;
+   width: 300px;
+   vertical-align: middle;
+   margin: auto;
+   /* margin-left: 10%;
+   margin-right: 10%; */
+   top: 0;
+   left: 0;
+   bottom: 0;
+   right: 0;
+    }
+
+
+    #i {
+      position: absolute;
+      display: block;
+      height: 30px;
+      width: 30px;
+      vertical-align: middle;
+      margin-right: 20%;
+      opacity: 0;
+      transition: 3s;
+      }
+
+
+    #m {
+      position: absolute;
+      display: block;
+      height: 30px;
+      width: 30px;
+      vertical-align: middle;
+      margin: auto;
+      opacity: 0;
+      transition: 2s;
+      }
+
+
+    #g {
+      position: absolute;
+      display: block;
+      height: 30px;
+      width: 30px;
+      vertical-align: middle;
+      margin-left: 20%;
+      opacity: 0;
+      transition: 1s;
+      }
+
+
+    #me {
+      position: absolute;
+      display: block;
+      height: 200px;
+      width: 200px;
+      vertical-align: middle;
+      margin-right: 10%; */
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      }
+
+
+    #bout {
+      float: left;
+      margin-right: 52%;
+      vertical-align: middle;
+      position: absolute;
+      overflow: hidden;
+      height: 200px;
+      width: 200px;
+      border-radius: 10%;
+      }
+
+    #data {
+      position: absolute;
+      display: block;
+      height: 100px;
+      width: 100px;
+      vertical-align: middle;
+      margin-right: 5%;
+      opacity: 0;
+      transition: 1s;
+      border-radius:1%!important;
+      }
+
+    #dev {
+      position: absolute;
+      display: block;
+      height: 100px;
+      width: 100px;
+      vertical-align: middle;
+      margin: auto;
+      opacity: 0;
+      transition: 2s;
+      }
+
+    #design {
+      position: absolute;
+      display: block;
+      height: 100px;
+      width: 100px;
+      vertical-align: middle;
+      margin-left: 5%;
+      opacity: 0;
+      transition: 3s;
+      }
+
+
+    /*design*/
+    #wrapper .text {
+    position:absolute;
+    display: block;
+    bottom:10px;
+    margin-left:10%;
+    margin-bottom: 40%;
+    visibility:hidden;
+    color: #ffffff;
+    }
+
+    #wrapper:hover .text {
+    visibility:visible;
+    }
+
+    /*dev*/
+    #rapper .text {
+    position:absolute;
+    display: block;
+    bottom:10px;
+    margin-left: 38%;
+    margin-bottom: 40%;
+    visibility:hidden;
+    color: #ffffff;
+    }
+
+    #rapper:hover .text {
+    visibility:visible;
+    }
+
+    /*data*/
+    #wapper .text {
+    position:absolute;
+    display: block;
+    bottom:10px;
+    margin-left:70%;
+    margin-bottom: 40%;
+    visibility:hidden;
+    color: #ffffff;
+    }
+
+    #wapper:hover .text {
+    visibility:visible;
+    }
+
+
+/* svg contaner */
+
+
+    .svg-container {
+      display: block;
+      position: absolute;
+      width: 50%;
+      height: 80%;
+      text-align: center;
+    }
+
+    .svg-container1 {
+      display: block;
+      position: absolute;
+      width: 50%;
+      height: 50%;
+      text-align: center;
+    }
+
+    .svg-containerG {
+      display: block;
+      position: absolute;
+      width: 70%;
+      height: 100%;
+      text-align: center;
+      margin-left: -20%;
+    }
+
+    .svg-containerW {
+      display: block;
+      position: absolute;
+      width: 50%;
+      height: 100%;
+      text-align: center;
+      margin-left: -2%;
+    }
+
+
+    .svg-containerA {
+      display: block;
+      position: absolute;
+      width: 40%;
+      height: 50%;
+      text-align: center;
+      margin-left: 10%;
+    }
+
+    .svg-containerC {
+      display: block;
+      position: absolute;
+      width: 50%;
+      height: 50%;
+      text-align: center;
+      margin-left: 2%;
+    }
