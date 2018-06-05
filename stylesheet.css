@@ -29,6 +29,14 @@
     color:white;
   }
 
+  h3 {
+    color:#ffffff;
+    text-align: center;
+    margin-top: 65%;
+    font-size: 10px;
+
+  }
+
   a {
     color: #2f4356;
   }
@@ -806,4 +814,13 @@
       height: 50%;
       text-align: center;
       margin-left: 2%;
+    }
+
+
+    h3 {
+      color:#ffffff;
+      text-align: center;
+      margin-top: 145%;
+      font-size: 10px;
+
     }
