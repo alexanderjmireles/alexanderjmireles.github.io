@@ -64,7 +64,7 @@
      width: 100%;
      height: 100%;
      overflow: hidden!important;
-     background-color:#02c8a7;
+     background-color:#ffffff;
     }
 
     .panel {
@@ -75,109 +75,134 @@
 
 
     .panel.intro {
-      background-color:#5e82a7;
+      background-color:#F8B195;
+
+
     }
 
     .panel.overview {
-      background-color:#537698;
+      background-color:#355C7D;
+
     }
 
     .panel.graphics {
-      background-color:#4a6987;
+      background-color:#C06C84;
+
     }
 
     .panel.graphics1 {
-      background-color:#4a6987;
+      background-color:#FFF;
+
     }
 
     .panel.graphics2 {
-      background-color:#4a6987;
+      background-color:#FFF;
+
     }
 
     .panel.graphics3 {
-      background-color:#4a6987;
+      background-color:#FFF;
+
     }
 
     .panel.graphics4 {
+      background-color:#FFF;
 
-      background-color:#4a6987;
     }
 
     .panel.graphics5 {
-      background-color:#4a6987;
+      background-color:#FFF;
+
     }
 
     .panel.graphics6 {
-      background-color:#4a6987;
+      background-color:#FFF;
+
     }
 
     .panel.graphics7 {
-      background-color:#4a6987;
+      background-color:#FFF;
+
     }
 
     .panel.graphics8 {
+      background-color:#FFF;
 
-      background-color:#4a6987;
     }
 
     .panel.graphics9 {
-      background-color:#4a6987;
+      background-color:#FFF;
+
     }
 
     .panel.graphics10 {
-      background-color:#4a6987;
+      background-color:#FFF;
+
     }
 
     .panel.graphics11 {
-      background-color:#4a6987;
+      background-color:#FFF;
+
     }
 
     .panel.graphics12 {
-      background-color:#4a6987;
+      background-color:#FFF;
+
     }
 
     .panel.graphics13 {
-      background-color:#4a6987;
+      background-color:#FFF;
+
     }
 
     .panel.graphics14 {
-      background-color:#4a6987;
+      background-color:#FFF;
+
     }
 
     .panel.graphics15 {
-      background-color:#4a6987;
+      background-color:#FFF;
+
     }
 
     .panel.web {
-      background-color:#415c77;
+      background-color:#F8B195;
+
     }
 
     .panel.web1 {
-      background-color:#415c77;
+      background-color:#FFF;
+
     }
 
     .panel.web2 {
-      background-color:#415c77;
+      background-color:#FFF;
+
     }
 
     .panel.web3 {
-      background-color:#415c77;
+      background-color:#FFF;
+
     }
 
     .panel.web4 {
-      background-color:#415c77;
+      background-color:#FFF;
+
     }
 
     .panel.web5 {
-      background-color:#415c77;
+      background-color:#FFF;
+
     }
 
     .panel.about {
-      background-color:#384f67;
+      background-color:#355C7D;
+
     }
 
     .panel.contact {
-      background-color:#2f4356;
+      background-color:#C06C84;
+
     }
 
 
