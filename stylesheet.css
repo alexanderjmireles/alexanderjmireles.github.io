@@ -52,7 +52,6 @@
     left: 0;
     bottom: 0;
     right: 0;
-    border-radius: 10%;
 
   }
 
@@ -213,15 +212,40 @@
     .slide {
       border-radius: 10%;
     }
+   .zoom {
+     position: absolute;
+     display: block;
+     height: 500px;
+     width: 500px;
+     vertical-align: middle;
+     margin: auto;
+     top: 0;
+     left: 0;
+     bottom: 0;
+     right: 0;
+     border-radius: 10%;
+     transition: transform .2s;
+   }
+
+   .zoom:hover {
+  transform: scale(1.5);
+    }
 
 
     .show {
       opacity: 1 !important;
     }
-
+   .wo {
+     border-style: outset;
+     border-width: thick;
+     border-color: #dfdfdf;
+   }
+   a:visited {
+     color: #dfdfdf;
+   }
 /* Icons *//* Icons *//* Icons *//* Icons *//* Icons *//* Icons *//* Icons */
 
-    #i {
+    .i {
       position: absolute;
       display: block;
       height: 100px;
@@ -233,7 +257,7 @@
     }
 
 
-    #m {
+    .m {
       position: absolute;
       display: block;
       height: 100px;
@@ -245,7 +269,7 @@
     }
 
 
-    #g {
+    .g {
       position: absolute;
       display: block;
       height: 100px;
@@ -256,7 +280,20 @@
       transition: 3s;
     }
 
-    #data {
+
+    .animated.pulse {
+      animation-duration: 0s;
+      animation-delay: 0s;
+    }
+    .animated.pulse:hover {
+      animation-duration: 1s;
+      animation-delay: 0s;
+      animation-iteration-count: infinite;
+    }
+
+
+
+    .data {
       position: absolute;
       display: block;
       height: 200px;
@@ -269,7 +306,7 @@
     }
 
 
-    #dev {
+    .dev {
       position: absolute;
       display: block;
       height: 200px;
@@ -280,7 +317,7 @@
       transition: 2.5s;
     }
 
-    #design {
+    .design {
       position: absolute;
       display: block;
       height: 200px;
@@ -290,6 +327,19 @@
       opacity: 0;
       transition: 1.5s;
     }
+
+
+    .animated.jello {
+      animation-duration: 0s;
+      animation-delay: 0s;
+
+    }
+    .animated.jello:hover {
+      animation-duration: 1s;
+      animation-delay: 0s;
+      animation-iteration-count: infinite;
+    }
+
 
 
      #bout {
@@ -329,12 +379,14 @@
     bottom:10px;
     margin-left:17%;
     margin-bottom: 10%;
-    visibility:hidden;
+    opacity:0;
     color: #ffffff;
+    font-family: 'Roboto Slab', serif;
+    transition:opacity 1s linear;
     }
 
     #wrapper:hover .text {
-    visibility:visible;
+    opacity:1;
     }
 
     /*dev*/
@@ -344,14 +396,16 @@
     bottom:10px;
     margin-left: 45%;
     margin-bottom: 10%;
-    visibility:hidden;
+    opacity:0;
     color: #ffffff;
+    font-family: 'Roboto Slab', serif;
+    transition:opacity 1s linear;
 
 
     }
 
     #rapper:hover .text {
-    visibility:visible;
+    opacity:1;
     }
 
     /*data*/
@@ -361,14 +415,16 @@
     bottom:10px;
     margin-left:70%;
     margin-bottom: 10%;
-    visibility:hidden;
+    opacity:0;
     color: #ffffff;
+    font-family: 'Roboto Slab', serif;
+    transition:opacity 1s linear;
 
 
     }
 
     #wapper:hover .text {
-    visibility:visible;
+    opacity:1;
     }
 
 

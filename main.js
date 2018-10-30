@@ -49,29 +49,29 @@
 
 
 var scene2 =	new ScrollMagic.Scene({triggerElement: '.footer'})
-		.setClassToggle('#i', 'show')
+		.setClassToggle('.i', 'show')
 		.addTo(controller);
 
 var scene3 =		new ScrollMagic.Scene({triggerElement: '.footer'})
-		.setClassToggle('#m', 'show')
+		.setClassToggle('.m', 'show')
 		.addTo(controller);
 
 var scene4 =		new ScrollMagic.Scene({triggerElement: '.footer'})
-		.setClassToggle('#g', 'show')
+		.setClassToggle('.g', 'show')
 		.addTo(controller);
 
 
 
 var scene5 =	new ScrollMagic.Scene({triggerElement: '.ov'})
-		.setClassToggle('#data', 'show')
+		.setClassToggle('.data', 'show')
 		.addTo(controller);
 
 var scene6 =	new ScrollMagic.Scene({triggerElement: '.ov'})
-		.setClassToggle('#dev', 'show')
+		.setClassToggle('.dev', 'show')
 		.addTo(controller);
 
 var scene7 =	new ScrollMagic.Scene({triggerElement: '.ov'})
-		.setClassToggle('#design', 'show')
+		.setClassToggle('.design', 'show')
 		.addTo(controller);
 
 
