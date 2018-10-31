@@ -32,8 +32,10 @@
   h3 {
     color:#ffffff;
     text-align: center;
-    margin-top: 65%;
+    margin-top: 55%;
+    margin-left: 6%;
     font-size: 10px;
+    font-family: 'Roboto Slab', serif;
 
   }
 
@@ -55,6 +57,16 @@
 
   }
 
+ .introscroll{
+   color:#ffffff;
+   text-align: center;
+   margin-top: 96%;
+   margin-right: -92%;
+   font-size: 14px;
+   font-family: 'Roboto Slab', serif;
+
+
+ }
 
 /* main section styling/movement *//* main section styling/movement *//* main section styling/movement */
 
@@ -209,6 +221,23 @@
 
 /* image/icon visibility *//* image/icon visibility *//* image/icon visibility *//* image/icon visibility */
 
+    .triangle-down{
+      width: 0;
+    	height: 0;
+    	border-left: 12.5px solid transparent;
+    	border-right: 12.5px solid transparent;
+    	border-top: 25px solid #ffffff;
+      margin-left: 96.8%;
+    }
+
+    .animate.flash {
+
+      animation-duration: 3s;
+      animation-delay: 4s;
+      animation-iteration-count: infinite;
+
+    }
+
     .slide {
       border-radius: 10%;
     }
@@ -231,6 +260,24 @@
   transform: scale(1.5);
     }
 
+    .zoomb {
+      position: absolute;
+      display: block;
+      height: 500px;
+      width: 500px;
+      vertical-align: middle;
+      margin: auto;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      border-radius: 10%;
+      transition: transform .2s;
+    }
+
+    .zoomb:hover {
+   transform: scale(1.5);
+     }
 
     .show {
       opacity: 1 !important;
@@ -251,7 +298,7 @@
       height: 100px;
       width: 100px;
       vertical-align: middle;
-      margin-right: 20%;
+      margin-right: 30%;
       opacity: 0;
       transition: 1s;
     }
@@ -263,7 +310,7 @@
       height: 100px;
       width: 100px;
       vertical-align: middle;
-      margin: auto;
+      margin-left: 48%;
       opacity: 0;
       transition: 2s;
     }
@@ -275,7 +322,44 @@
       height: 100px;
       width: 100px;
       vertical-align: middle;
-      margin-left: 20%;
+      margin-left: 30%;
+      opacity: 0;
+      transition: 3s;
+    }
+    .ii {
+      position: absolute;
+      display: block;
+      height: 100px;
+      width: 100px;
+      vertical-align: middle;
+      margin-top: 40%;
+      margin-right: 30%;
+      opacity: 0;
+      transition: 1s;
+    }
+
+
+    .mm {
+      position: absolute;
+      display: block;
+      height: 100px;
+      width: 100px;
+      vertical-align: middle;
+      margin-left: 48%;
+      margin-top: 40%;
+      opacity: 0;
+      transition: 2s;
+    }
+
+
+    .gg {
+      position: absolute;
+      display: block;
+      height: 100px;
+      width: 100px;
+      vertical-align: middle;
+      margin-top: 40%;
+      margin-left: 30%;
       opacity: 0;
       transition: 3s;
     }
@@ -296,8 +380,10 @@
     .data {
       position: absolute;
       display: block;
-      height: 200px;
-      width: 200px;
+      height: 25%;
+      width: 20%;
+      max-width: 200px;
+      max-height: 200px;
       vertical-align: middle;
       margin-right: 10%;
       opacity: 0;
@@ -309,8 +395,10 @@
     .dev {
       position: absolute;
       display: block;
-      height: 200px;
-      width: 200px;
+      height: 25%;
+      width: 20%;
+      max-width: 200px;
+      max-height: 200px;
       vertical-align: middle;
       margin: auto;
       opacity: 0;
@@ -320,8 +408,10 @@
     .design {
       position: absolute;
       display: block;
-      height: 200px;
-      width: 200px;
+      height: 25%;
+      width: 20%;
+      max-width: 200px;
+      max-height: 200px;
       vertical-align: middle;
       margin-left: 10%;
       opacity: 0;
@@ -356,13 +446,36 @@
     }
 
 
+      .bioinfo {
+        color: #ffffff;
+        font-family: 'Roboto Slab', serif;
+        font-size: 14px;
+        text-align: center;
+      }
+
+
+        .info1 {
+          /* float: left; */
+          margin-left: 20%;
+          margin-top: 19.75%;
+          vertical-align: middle;
+          position: absolute;
+          overflow: hidden;
+          height: 400px;
+          width: 400px;
+          opacity: 0;
+          transition: 3s;
+
+        }
+
     #me {
-      width: 400px;
-      height: 400px;
+      width: auto;
+      height: 450px;
       float: right!important;
-      margin-left: 55%;
+      margin-top: 12%;
+      margin-left: 65%;
       vertical-align: middle;
-      border-radius: 10%;
+      border-radius: 2%;
       position: absolute;
       overflow: hidden;
       opacity: 0;
@@ -653,11 +766,129 @@
 
 
 
+@media only screen and (min-width:1100px) and (max-width: 1166px) {
+  .introscroll {
+    margin-top: 98%;
+    margin-right: -92%;
+  }
+  .triangle-down {
+    margin-left: 96.8%;
+
+  }
+}
+@media only screen and (min-width:1025px) and (max-width: 1099px) {
+  .zoomb:hover {
+ transform: scale(1.2);
+   }
+   h3 {
+     margin-top: 60%;
+     margin-left: 6%;
+   }
+
+  .introscroll {
+    margin-top: 110%;
+    margin-right: -92%;
+  }
+
+  .triangle-down {
+    margin-left: 96.8%;
+
+  }
+}
+@media only screen and (max-width: 1024px) {
+
+   .introscroll{
+     margin-top: 115%;
+     margin-right: -92%;
+
+   }
 
 
+  .triangle-down{
+    margin-left: 96.8%;
+  }
+  .zoomb {
+    height: 200px;
+    width: 200px;
+  }
+  .zoomb:hover {
+ transform: scale(1.1);
+   }
 
+   .bioinfo {
+     font-size: 12px;
+   }
+   .info1 {
+     margin-left: 20%;
+     margin-top: 28%;
+     height: 300px;
+     width: 300px;
+   }
 
+   #me {
+     margin-top: 25%;
+     width: auto;
+     height: 350px;
+   }
+     .i {
+       margin-left: 62%;
+     }
+   .ii {
+     margin-top: 45%;
+     margin-left: 64%;
+   }
+   .mm {
+     margin-top: 45%;
+   }
+   .gg {
+     margin-top: 45%;
+   }
 
+   #wrapper:hover .text {
+     margin-bottom: 10%;
+   }
+
+   #rapper:hover .text {
+     margin-bottom: 10%;
+   }
+   #wapper:hover .text {
+     margin-bottom: 10%;
+   }
+   h3 {
+     margin-top: 60%;
+     margin-left: 6%;
+   }
+}
+
+@media only screen and (min-width:761px) and (max-width: 841px) {
+
+  .introscroll {
+    margin-top: 135%;
+    margin-right: -92%;
+  }
+
+  .triangle-down {
+    margin-left: 96.8%;
+
+  }
+
+  .ii {
+    margin-top: 55%;
+
+  }
+  .mm {
+    margin-top: 55%;
+  }
+  .gg {
+    margin-top: 55%;
+  }
+
+  h3 {
+    margin-top: 75%;
+    margin-left: 6%;
+  }
+
+}
 /* MOBILE stylesheet *//* MOBILE stylesheet *//* MOBILE stylesheet *//* MOBILE stylesheet */
 
 
@@ -680,7 +911,23 @@
      overflow-x: visible;
      }
 
+     .introscroll {
+       margin-top: 154%;
+       margin-right: -92%;
 
+     }
+
+     .triangle-down {
+        margin-left: 96.8%;
+     }
+
+     .bioinfo {
+       font-size: 9px;
+     }
+     .info1 {
+       margin-left: 28%;
+       margin-top: 32%;
+     }
   img {
    position: absolute;
    display: block;
@@ -703,7 +950,7 @@
       height: 30px;
       width: 30px;
       vertical-align: middle;
-      margin-right: 20%;
+      margin-right: 10%;
       opacity: 0;
       transition: 3s;
       }
@@ -732,14 +979,24 @@
       transition: 1s;
       }
 
+      .ii {
+        margin-top: 60%;
+      }
+      .mm {
+        margin-top: 60%;
+      }
+      .gg {
+        margin-top: 60%;
+      }
 
     #me {
       position: absolute;
       display: block;
       height: 200px;
-      width: 200px;
+      width: auto;
       vertical-align: middle;
-      margin-right: 10%; */
+      margin-left: 40%;
+      margin-top: 60%;
       top: 0;
       left: 0;
       bottom: 0;
@@ -899,7 +1156,12 @@
     h3 {
       color:#ffffff;
       text-align: center;
-      margin-top: 145%;
+      margin-top: 90%;
+      margin-left: 7%;
       font-size: 10px;
 
+
     }
+
+
+}

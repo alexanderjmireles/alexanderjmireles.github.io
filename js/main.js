@@ -77,14 +77,24 @@ var scene7 =	new ScrollMagic.Scene({triggerElement: '.ov'})
 
 
 var scene8 =	new ScrollMagic.Scene({triggerElement: '.info'})
-		.setClassToggle('#bout', 'show')
+		.setClassToggle('.info1', 'show')
 		.addTo(controller);
 
 var scene9 =	new ScrollMagic.Scene({triggerElement: '.info'})
 		.setClassToggle('#me', 'show')
 		.addTo(controller);
 
+		var scene10 =	new ScrollMagic.Scene({triggerElement: '.footer'})
+				.setClassToggle('.ii', 'show')
+				.addTo(controller);
 
+		var scene11 =		new ScrollMagic.Scene({triggerElement: '.footer'})
+				.setClassToggle('.mm', 'show')
+				.addTo(controller);
+
+		var scene12 =		new ScrollMagic.Scene({triggerElement: '.footer'})
+				.setClassToggle('.gg', 'show')
+				.addTo(controller);
 
 
 

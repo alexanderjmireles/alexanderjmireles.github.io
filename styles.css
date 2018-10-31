@@ -1,0 +1,454 @@
+/*-------------
+ 	Portrait tab
+-------------*/
+@media (min-width: 768px) and (max-width: 1024px) {}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html{
+	font: normal 16px sans-serif;
+	color: #555;
+}
+
+ul, nav{
+	list-style: none;
+}
+
+
+
+
+	section{
+		padding: 100px 50px;
+		overflow: hidden;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+	}
+
+
+
+ul.grid{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+
+
+
+
+/*----------------
+ 	Hero Section
+----------------*/
+
+.hero{
+	position: relative;
+	justify-content: center;
+	min-height: 100vh;
+	background-color: #F8B195;
+	text-align: center;
+	color: #ffffff;
+}
+
+.hero1{
+	position: relative;
+	justify-content: center;
+	min-height: 100vh;
+	background-color: #355C7D;
+	text-align: center;
+	color: #ffffff;
+}
+
+.hero2{
+	position: relative;
+	justify-content: center;
+	min-height: 100vh;
+	background-color: #C06C84;
+	text-align: center;
+	color: #ffffff;
+}
+
+
+.animated.fadeInDown {
+	animation-duration: 2s;
+
+
+}
+.alexintro {
+	height: 80%;
+	width: 80%;
+}
+
+.overview {
+	height: 70%;
+	width: 70%;
+}
+.ovi {
+	width: 200px;
+	height: 200px;
+}
+
+.animated.fadeIn {
+	animation-duration: 1s;
+  animation-delay: 3s;
+
+
+}
+
+
+#odes .text {
+	font-size: 40px;
+	opacity:0;
+  transition:opacity 1s linear;
+	color: #ffffff;
+	font-family: 'Roboto Slab', serif;
+	font-size: 20px;
+}
+
+#odes:hover .text {
+	opacity:1;
+}
+
+#odev .text {
+	font-size: 40px;
+	opacity:0;
+  transition:opacity 1s linear;
+	color: #ffffff;
+	font-family: 'Roboto Slab', serif;
+	font-size: 20px;
+}
+
+#odev:hover .text {
+	opacity:1;
+}
+
+#odat .text {
+	font-size: 40px;
+	opacity:0;
+  transition:opacity 1s linear;
+	color: #ffffff;
+	font-family: 'Roboto Slab', serif;
+	font-size: 20px;
+}
+
+#odat:hover .text {
+	opacity:1;
+}
+
+
+/* ------------------
+graphics intro slide
+ -------------------*/
+
+.graphp {
+
+	height: 60%;
+	width: 60%;
+
+}
+
+/* ------------------
+web intro slide
+ -------------------*/
+.webp {
+
+	height: 60%;
+	width: 60%;
+
+}
+.animate.rubberBand {
+	animation-duration: 0s;
+  animation-delay: 0s;
+}
+.animate.rubberBand:hover {
+	animation-duration: 1s;
+  animation-delay: 0s;
+	animation-iteration-count: infinite;
+
+}
+/*--------------------
+ 	Our Work Section
+---------------------*/
+.wo {
+		border-style: outset;
+		border-width: thin;
+		border-color: #dfdfdf;
+		border-radius: 30px;
+	}
+	a:visited {
+		color: #dfdfdf;
+	}
+.оur-work{
+	background-color: #fff;
+}
+
+.our-work .grid li{
+	padding: 20px;
+	height: 350px;
+	background-clip: content-box;
+	background-size: cover;
+	background-position: center;
+	background-color: #fff;
+}
+
+.our-work .grid li.small{
+	flex-basis: 60%;
+	margin-top: 10%;
+	margin-left: 40%;
+}
+
+.our-work .grid li.large{
+	flex-basis: 60%;
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+.webby {
+	height: 100%;
+	width: 100%;
+}
+/*-------------
+ 	about
+-------------*/
+.bio {
+	width: 80%;
+}
+.about {
+	height: 45%;
+	width: 45%;
+
+}
+.about1 {
+	height: 80%;
+	width: 60%;
+	border-radius: 2%;
+
+}
+
+
+.bioinfo {
+				color: #ffffff;
+        font-family: 'Roboto Slab', serif;
+        font-size: 14px;
+        text-align: center;
+}
+/*-------------
+ 	Footer
+-------------*/
+.contact {
+	height: 50%;
+	width: 50%;
+}
+footer{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	color: #fff;
+	background-color: #C06C84;
+	padding: 60px 0px;
+}
+
+ footer ul{
+	display: flex;
+	margin-bottom: 25px;
+	font-size: 32px;
+}
+
+footer ul li{
+	margin: 0 8px;
+}
+
+footer ul li:first-child{
+	margin-left: 0;
+}
+
+footer ul li:last-child{
+	margin-right: 0;
+}
+
+footer p{
+	text-transform: uppercase;
+	font-size: 14px;
+	color: rgba(255,255,255,0.6);
+	margin-bottom: 10px;
+}
+
+footer p a{
+	color: #fff;
+}
+
+#footercopy {
+	margin-top: 25%;
+	font-size: 20px;
+	color: #ffffff;
+	font-family: 'Roboto Slab', serif;
+}
+.animated.pulse {
+	animation-duration: 0s;
+  animation-delay: 0s;
+
+}
+
+.animated.pulse:hover {
+	animation-duration: .5s;
+  animation-delay: 0s;
+	animation-iteration-count: infinite;
+
+}
+
+.contacto {
+	width: 100px;
+	height: 100px;
+	margin-left: 51%;
+}
+.contacto1 {
+	width: 100px;
+	height: 100px;
+	margin-left: 19%;
+}
+.contacto2 {
+	width: 100px;
+	height: 100px;
+  margin-left: -72%;
+}
+.contacto3 {
+	width: 100px;
+	height: 100px;
+	margin-left: -72%;
+}
+.contacto4 {
+	width: 100px;
+	height: 100px;
+	margin-left: 19%;
+}
+.contacto5 {
+	width: 100px;
+	height: 100px;
+	margin-left: 55%;
+}
+
+/*-------------
+ 	Portrait phone
+-------------*/
+
+@media (min-width: 320px) and (max-width: 480px){
+
+	section{
+		padding: 80px 30px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+	}
+
+	.hero{
+		min-height: 600px;
+	}
+	.hero1{
+		position: relative;
+		justify-content: center;
+		min-height: 100vh;
+		background-color: #355C7D;
+		text-align: center;
+		color: #ffffff;
+	}
+
+	.hero2{
+		position: relative;
+		justify-content: center;
+		min-height: 600px;
+		background-color: #C06C84;
+		text-align: center;
+		color: #ffffff;
+	}
+
+
+.alexintro {
+	height: 80%;
+	width: 80%;
+}
+
+.overview {
+	height: 70%;
+	width: 70%;
+}
+.ovi {
+	width: 100px;
+	height: 100px;
+}
+#odes .text {
+	font-size: 20px;
+}
+#odev .text {
+	font-size: 20px;
+}
+#odat .text {
+	font-size: 20px;
+}
+.graphp {
+	height: 65%;
+	width: 65%;
+}
+.our-work .grid li.small,
+.our-work .grid li.large{
+	flex-basis: 100%;
+}
+
+.webp {
+
+	height: 65%;
+	width: 65%;
+
+}
+.about {
+	height: 45%;
+	width: 45%;
+
+}
+footer{
+	padding: 80px 5px;
+}
+.contact {
+	height: 45%;
+	width: 45%;
+}
+.contacto {
+	width: 50px;
+	height: 50px;
+	margin-left: 51%;
+}
+.contacto1 {
+	width: 50px;
+	height: 50px;
+	margin-left: 19%;
+}
+.contacto2 {
+	width: 50px;
+	height: 50px;
+  margin-left: -72%;
+}
+.contacto3 {
+	width: 50px;
+	height: 50px;
+	margin-left: -72%;
+}
+.contacto4 {
+	width: 50px;
+	height: 50px;
+	margin-left: 19%;
+}
+.contacto5 {
+	width: 50px;
+	height: 50px;
+	margin-left: 55%;
+}
+#footercopy {
+	margin-top: 25%;
+	font-size: 10px;
+}
+}
