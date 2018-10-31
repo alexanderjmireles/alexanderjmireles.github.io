@@ -297,7 +297,8 @@ footer p a{
 .animated.pulse:hover {
 	animation-duration: .5s;
   animation-delay: 0s;
-	
+	animation-iteration-count: infinite;
+
 
 }
 
