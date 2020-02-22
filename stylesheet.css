@@ -76,6 +76,7 @@
      height: 100%;
      overflow: hidden!important;
      background-color:#ffffff;
+     display: -webkit-box;
     }
 
     .panel {
